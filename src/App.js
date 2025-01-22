@@ -1,12 +1,9 @@
 import logo from "./logo.svg";
 import "./App.css";
+import StatsComponent from "./StatsComponent.tsx";
 
 function App() {
-  return (
-    <div>
-      <h1 className="text-3xl font-bold underline">Hello world!</h1>
-    </div>
-  );
+  return <StatsComponent></StatsComponent>;
 }
 
 export default App;
