@@ -10,11 +10,11 @@ const StatsComponent = () => {
             alt=""
             className="w-full h-full object-cover rounded-t-md"
           />
-          <div className="absolute inset-0 bg-[#aa5cdb] opacity-50"></div>
+          <div className="absolute inset-0 bg-[#aa5cdb] rounded-t-md opacity-50"></div>
         </div>
 
-        {/* title */}
-        <div className=" bg-[#1b1938] rounded-b-md flex flex-col p-6 gap-3 w-full">
+        <div className="bg-[#1b1938] rounded-b-md flex flex-col p-6 gap-3 w-full">
+          {/* title */}
           <div className="text-white text-2xl font-bold text-center font-lexend ">
             <p>
               Get
