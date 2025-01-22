@@ -2,7 +2,15 @@
 module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        lexend: ["Lexend Deca", "sans-serif"],
+        inter: ["Inter", "sans-serif"],
+      },
+      fontSize: {
+        custom: "15px",
+      },
+    },
   },
   plugins: [],
 };
