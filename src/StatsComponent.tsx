@@ -39,21 +39,23 @@ const StatsComponent = () => {
           <div className="flex flex-col gap-3 text-white items-center justify-center">
             <div className="flex flex-col items-center justify-center">
               <p className="text-2xl font-bold">10k+</p>
-              <p className="text-sm font-lexend text-[#ffffff99] uppercase">
-                Companies
+              <p className="text-xs font-inter text-[#ffffff99] uppercase">
+                C&nbsp;o&nbsp;m&nbsp;p&nbsp;a&nbsp;n&nbsp;i&nbsp;e&nbsp;s
               </p>
             </div>
 
             <div className="flex flex-col items-center justify-center">
               <p className="text-2xl font-bold">314</p>
-              <p className="text-sm font-inter text-[#ffffff99] uppercase">
-                Templates
+              <p className="text-xs font-inter text-[#ffffff99] uppercase">
+                T&nbsp;e&nbsp;m&nbsp;p&nbsp;l&nbsp;a&nbsp;t&nbsp;e&nbsp;s
               </p>
             </div>
 
             <div className="flex flex-col items-center justify-center">
               <p className="text-2xl font-bold">12M</p>
-              <p className="text-sm text-[#ffffff99] uppercase">Queries</p>
+              <p className="text-xs font-inter text-[#ffffff99] uppercase">
+                Q&nbsp;u&nbsp;e&nbsp;r&nbsp;i&nbsp;e&nbsp;s
+              </p>
             </div>
           </div>
         </div>
